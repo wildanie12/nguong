@@ -12,6 +12,7 @@ body {
 }
 
 div {
+    cursor: none;
     z-index: 1;
     padding: 24px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -22,6 +23,7 @@ div {
     animation: shake-x 7s linear infinite alternate;
     
     h1 {
+        user-select: none;
         font-size: 48px;
         color: #141f2b;
         font-weight: 700;
@@ -35,6 +37,7 @@ div {
         animation: shine 5s ease infinite;
     }
     span {
+        user-select: none;
         text-align: center;
         display: block;
         text-transform: uppercase;
