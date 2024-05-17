@@ -94,7 +94,7 @@ section {
     border-radius: 100%;
 
     width: 10%;
-    outline: 24px solid #141f2b;
+    outline: 24px solid #283039;
     filter: blur(24px);
     opacity: 0;
     animation: blow 15s ease-in infinite;
