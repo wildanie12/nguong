@@ -10,10 +10,10 @@ body {
     align-items: center;
     height: 100vh;
     background: #141f2b;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-div {
+div.main {
     cursor: none;
     z-index: 1;
     padding: 24px;
@@ -21,9 +21,9 @@ div {
     border-radius: 16px;
     font-family: 'Poppins', sans-serif;
     backdrop-filter: blur(4px);
-    border: .4px solid rgba(255, 255, 255, 0.294);
+    border: 0.4px solid rgba(255, 255, 255, 0.294);
     animation: shake-x 7s linear infinite alternate;
-    
+
     h1 {
         user-select: none;
         font-size: 48px;
@@ -63,20 +63,20 @@ label {
 }
 
 label:first-of-type {
-    opacity: .2;
+    opacity: 0.2;
     width: 320px;
     filter: blur(60px);
     animation: dimming-candle 45s ease 2s infinite;
 }
 
 label:nth-of-type(2) {
-    opacity: .2;
+    opacity: 0.2;
     width: 240px;
     filter: blur(40px);
 }
 
 label:nth-of-type(3) {
-    opacity: .5;
+    opacity: 0.5;
     width: 120px;
     filter: blur(16px);
 }
@@ -136,7 +136,6 @@ section {
     }
 }
 
-
 @keyframes shine {
     0% {
         background-position-x: 60px;
@@ -145,7 +144,6 @@ section {
         background-position-x: 500px;
     }
 }
-
 
 @keyframes shake-x {
     0% {
