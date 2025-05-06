@@ -31,12 +31,12 @@ div.main {
     font-weight: 700;
     text-align: center;
     position: relative;
-    background: linear-gradient(90deg, #141f2b 30%, #aab7c5 50%, #141f2b 70%);
+    background: linear-gradient(60deg, #141f2b 30%, #aab7c5 50%, #141f2b 52%);
     background-size: 200%;
     background-position-x: 60px;
     background-clip: text;
     color: transparent;
-    animation: shine 5s ease infinite;
+    animation: shine 8s ease infinite;
   }
   span {
     user-select: none;
@@ -138,10 +138,10 @@ section {
 
 @keyframes shine {
   0% {
-    background-position-x: 60px;
+    background-position-x: -380px;
   }
   100% {
-    background-position-x: 750px;
+    background-position-x: 160px;
   }
 }
 
