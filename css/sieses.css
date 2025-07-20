@@ -6,11 +6,38 @@
 }
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background: #141f2b;
   overflow: hidden;
+}
+
+body div.logo {
+  position: fixed;
+  bottom: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #365567;
+  font-family: sans-serif;
+}
+
+body div.title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 16px;
+}
+body div.title span {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+body div.logo svg {
+  fill: #365567;
+  max-width: 64px;
+  max-height: 64px;
 }
 
 div.main {
